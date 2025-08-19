@@ -1,0 +1,9 @@
+a=b=c=100
+c,d=120,130
+e=140;f=150
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)

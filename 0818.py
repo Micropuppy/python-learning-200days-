@@ -1,0 +1,9 @@
+player1=int(input("请输入我们阿根廷队的实力"))
+player2=int(input('请输入沙特队的实力'))
+player3=int(input('请输入波兰队的实力'))
+player4=int(input('请输入墨西哥队的实力'))
+_1vs2=(player1>player2)*3+(player1==player2)
+_1vs3=(player1>player3)*3+(player1==player3)
+_1vs4=(player1>player4)*3+(player1==player4)
+score=_1vs2+_1vs3+_1vs4
+print("我们尊敬的阿根廷队的最终小组赛积分是%d分"%(score))
